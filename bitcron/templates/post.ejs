@@ -1,0 +1,96 @@
+
+<html>
+  <head lang="zh">
+  <%- include('./_blocks/head', { siteTitle: `${post.title} | ${themeConfig.siteName}` }) %>
+  </head>
+
+  <body>
+ <%- include('./_blocks/header') %>
+
+    <div class="main">
+      <div class="main-inner">
+
+
+<div class="content">
+
+
+
+
+
+
+  <div class="post_page" >
+
+<div class="post">
+  <div class="post_title sm_margin">
+    <h2><a><%= post.title %></a>
+
+
+
+    </h2>
+  </div>
+
+  <div class="post_details">
+    <div class="info"><i class="fa fa-clock-o"></i>
+<span class="date_info"><%= post.dateFormat %></span>
+<i class="fa fa-eye"></i>
+<span class="context"><span id="busuanzi_value_page_pv"></span> Views</span>
+<span class="mobile"><span id="busuanzi_value_page_pv"></span></span>
+<i class="fa fa-bookmark-o"></i>
+<span class="tags_info weaklink">
+	<% post.tags.forEach(function(tag) { %>
+	<a href="<%= tag.link %>" class="tag"><%= tag.name %></a>
+<% }); %>
+
+</span>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="post_content markdown"><p class="md_block">
+    <span class="md_line md_line_start md_line_end"><%- post.content %></p>
+
+
+</div>
+
+</div>
+
+
+
+<link href="<%= themeConfig.domain %>/styles/main.css" type="text/css" rel="stylesheet"/>
+
+<div class="doc_comments">
+<% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+          <% if (commentSetting.commentPlatform === 'gitalk') { %>
+            <%- include('./_blocks/gitalk') %>
+          <% } %>
+			  
+          <% if (commentSetting.commentPlatform === 'disqus') { %>
+            <%- include('./_blocks/disqus') %>
+          <% } %>
+        <% } %>
+</div>
+
+
+
+  </div>
+</div>
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+<%- include('./_blocks/footer') %>
+</body>
+
+</html>
