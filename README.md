@@ -4,7 +4,7 @@
 [miracol.cn](https://miracol.cn/)
 
 ## 首页
-![首页](https://www.z4a.net/images/2019/06/25/209ce08248bd871727a9791a796ea206.md.png)
+![首页](https://github.com/alterfang/gridea-theme-bitcron/blob/master/209ce08248bd871727a9791a796ea206.md.png?raw=true)
 ## 内容页
 ![内容页](https://www.z4a.net/images/2019/06/25/617ef719bbb2606a21bb9b04fd3a23c8.md.png)
 ## 标签页
