@@ -2,6 +2,9 @@
 ***
 ## 个人博客地址：
 [miracol.cn](https://miracol.cn/)
+***
+## 推荐由[SERENCE](https://github.com/qyxtim/bitcron-pro)改版的pro版更加漂亮！
+
 
 ## 首页
 ![首页](https://github.com/alterfang/gridea-theme-bitcron/blob/master/209ce08248bd871727a9791a796ea206.md.png?raw=true)
