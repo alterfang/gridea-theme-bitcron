@@ -1,7 +1,7 @@
 # bitcron
 ***
 ## 个人博客地址：
-[miracol.cn](https://miracol.cn/)
+[Shanbu.fun](https://shanbu.fun/)
 ***
 ## 推荐由[SERENCE](https://github.com/qyxtim/bitcron-pro)改版的pro版更加漂亮！
 
